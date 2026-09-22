@@ -33,14 +33,14 @@ export function HomePage() {
 
   return (
     <main>
-      <section className="mx-auto max-w-3xl px-4 pb-10 pt-14 text-center md:pt-20">
+      <section className="mx-auto max-w-4xl px-4 pb-10 pt-14 text-center md:pt-20">
         <h1 className="font-display text-4xl font-bold leading-tight tracking-tight md:text-5xl">
           Yerel kişisel bakım için rezervasyon yapın
         </h1>
         <p className="mx-auto mt-4 max-w-2xl text-base text-muted md:text-lg">
           En yüksek puanlı kuaförleri, güzellik salonlarını, berberleri ve spa’ları keşfedin — uygun saati seçin, anında alın.
         </p>
-        <div className="mx-auto mt-8 max-w-xl text-left">
+        <div className="mx-auto mt-8 w-full text-left">
           <SearchBar />
         </div>
       </section>

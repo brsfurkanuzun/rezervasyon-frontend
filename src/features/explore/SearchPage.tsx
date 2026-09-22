@@ -24,7 +24,7 @@ export function SearchPage() {
 
   return (
     <main className="mx-auto max-w-6xl px-4 py-8">
-      <SearchBar compact initial={{ q: query, city, date }} />
+      <SearchBar compact initial={{ q: query, city, date, category }} />
       <div className="mt-6">
         <DateStrip
           value={date || new Date().toISOString().slice(0, 10)}
